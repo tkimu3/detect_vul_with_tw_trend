@@ -1,0 +1,1762 @@
+[
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5957597251894462,
+            "max_samples": 0.6221087710398319,
+            "n_estimators": 987.9099302128061
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8926792918568847,
+            "max_samples": 0.7799758081188035,
+            "n_estimators": 690.6666895087549
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6382321275715483,
+            "max_samples": 0.8018721775350193,
+            "n_estimators": 1924.6508366306693
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9379663173710473,
+            "max_samples": 0.35781726995786667,
+            "n_estimators": 1101.7912259422255
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8417314675860681,
+            "max_samples": 0.7127020269829002,
+            "n_estimators": 866.4513586227109
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7805980930328125,
+            "max_samples": 0.5030831653078097,
+            "n_estimators": 224.78320926322803
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.886413310806187,
+            "max_samples": 0.8826411906361166,
+            "n_estimators": 856.7947710224701
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8076980892167469,
+            "max_samples": 0.07538124164297655,
+            "n_estimators": 863.8832108035541
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9665700509912608,
+            "max_samples": 0.6513781432265774,
+            "n_estimators": 914.9646399070775
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8943650714703728,
+            "max_samples": 0.31683612216887125,
+            "n_estimators": 1222.5775747269245
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9345636947806129,
+            "max_samples": 0.43617342389567937,
+            "n_estimators": 1643.8657557442864
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5718834122572822,
+            "max_samples": 0.7042609711183354,
+            "n_estimators": 1468.2463547412306
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6093960528370443,
+            "max_samples": 0.924867628615565,
+            "n_estimators": 995.853359727518
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9546579794862362,
+            "max_samples": 0.0598092227798519,
+            "n_estimators": 531.7167508648645
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5236776394007576,
+            "max_samples": 0.6748809435823302,
+            "n_estimators": 1270.324603882008
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7666550814993753,
+            "max_samples": 0.04332406269480349,
+            "n_estimators": 1210.5795441141163
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6648342228104576,
+            "max_samples": 0.5029668331126184,
+            "n_estimators": 401.4097716339269
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8035968531092423,
+            "max_samples": 0.5659446430505314,
+            "n_estimators": 212.175311582005
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8087208544021485,
+            "max_samples": 0.9121228864331543,
+            "n_estimators": 1622.94343950266
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9960407330941807,
+            "max_samples": 0.9588017621528665,
+            "n_estimators": 1625.5354435249517
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8945295635577676,
+            "max_samples": 0.15467965593870447,
+            "n_estimators": 1999.4647579568818
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9021851981246252,
+            "max_samples": 0.6819207415040721,
+            "n_estimators": 1999.9984160587142
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5441341646376312,
+            "max_samples": 0.40258191218972594,
+            "n_estimators": 200.214477387167
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9460676959489125,
+            "max_samples": 0.7893571557679919,
+            "n_estimators": 1999.9088804490827
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5479892102414265,
+            "max_samples": 0.6456646841432384,
+            "n_estimators": 200.12780787558785
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6474259745307019,
+            "max_samples": 0.03182671520056701,
+            "n_estimators": 1999.8730485066828
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7826846820714941,
+            "max_samples": 0.5968404741396707,
+            "n_estimators": 200.02583727828628
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7598978338884601,
+            "max_samples": 0.9922207709735447,
+            "n_estimators": 1999.7763779506993
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6048178079887228,
+            "max_samples": 0.9215351337480395,
+            "n_estimators": 200.0670600358787
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5851849690634275,
+            "max_samples": 0.73553270469573,
+            "n_estimators": 1999.6558794417274
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.972080931373098,
+            "max_samples": 0.006132063255235409,
+            "n_estimators": 200.11904039718257
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8880922783899394,
+            "max_samples": 0.2625226151025235,
+            "n_estimators": 1999.8047197114038
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8255958973183761,
+            "max_samples": 0.025305847535751158,
+            "n_estimators": 200.35685537738226
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6058724836983091,
+            "max_samples": 0.6256787967052552,
+            "n_estimators": 1999.970432314042
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7249265968263081,
+            "max_samples": 0.8846459531343321,
+            "n_estimators": 200.0326312622253
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8750561195922413,
+            "max_samples": 0.2781752240168611,
+            "n_estimators": 1999.8553426090018
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8098985816879323,
+            "max_samples": 0.32511434898275193,
+            "n_estimators": 200.63104250813154
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6572885875762892,
+            "max_samples": 0.07498004813125381,
+            "n_estimators": 1999.6805702558886
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6598223057354813,
+            "max_samples": 0.9894350303012053,
+            "n_estimators": 200.1265860409152
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.676391631582848,
+            "max_samples": 0.5749452248045562,
+            "n_estimators": 1999.9204296596333
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6912263371651777,
+            "max_samples": 0.39173873996501885,
+            "n_estimators": 200.02113448604445
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7035948270779908,
+            "max_samples": 0.315640601867603,
+            "n_estimators": 1999.931977643506
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9981135083775988,
+            "max_samples": 0.23736137297653392,
+            "n_estimators": 200.13800512024494
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.861138882740887,
+            "max_samples": 0.9580231204377114,
+            "n_estimators": 1999.8060898876072
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6419693745608261,
+            "max_samples": 0.1333656892868027,
+            "n_estimators": 200.09920751912674
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9148061853749898,
+            "max_samples": 0.2083914259566818,
+            "n_estimators": 1999.9511460669805
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6359562843675107,
+            "max_samples": 0.1503643818150181,
+            "n_estimators": 200.05258861099648
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7342321273117254,
+            "max_samples": 0.13712061330075964,
+            "n_estimators": 1999.7355487124694
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5865676912233353,
+            "max_samples": 0.8442133209852797,
+            "n_estimators": 200.634059530881
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6755048641864063,
+            "max_samples": 0.015243765752618432,
+            "n_estimators": 1999.9660157884039
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5782883963406275,
+            "max_samples": 0.3277737371156373,
+            "n_estimators": 200.2954009018051
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7092518292943366,
+            "max_samples": 0.7073115652491655,
+            "n_estimators": 1999.9771042368527
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8863879897031979,
+            "max_samples": 0.998239324409322,
+            "n_estimators": 200.38766144371033
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8945833397086254,
+            "max_samples": 0.034216727104002365,
+            "n_estimators": 1999.4778197071362
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8899536978903453,
+            "max_samples": 0.7887468097559247,
+            "n_estimators": 200.13684017299985
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9587411454184656,
+            "max_samples": 0.7652573243066462,
+            "n_estimators": 1999.294080980475
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7100993598817693,
+            "max_samples": 0.20223656551019498,
+            "n_estimators": 200.04575697626697
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8943053848918613,
+            "max_samples": 0.2339973745970212,
+            "n_estimators": 1999.9078826309305
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8850094020132908,
+            "max_samples": 0.15525355445139022,
+            "n_estimators": 200.06180665301318
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6711098264858839,
+            "max_samples": 0.8192761806794405,
+            "n_estimators": 1999.8879059575775
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8471626832074968,
+            "max_samples": 0.2804124898683821,
+            "n_estimators": 200.04915065657812
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5677058990165668,
+            "max_samples": 0.9014227663942439,
+            "n_estimators": 1999.6658162953381
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8714038204198868,
+            "max_samples": 0.8614973604567668,
+            "n_estimators": 200.00197764536486
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5059562144678704,
+            "max_samples": 0.07614129510819478,
+            "n_estimators": 1999.6073653848205
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9679620901307355,
+            "max_samples": 0.9661398175620264,
+            "n_estimators": 200.25720650389607
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9568197999532688,
+            "max_samples": 0.2699604091253506,
+            "n_estimators": 1999.4479753720636
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8440683898584664,
+            "max_samples": 0.845938140577442,
+            "n_estimators": 200.11840700247689
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5419492557566685,
+            "max_samples": 0.0944226111358123,
+            "n_estimators": 1999.7310978150067
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6798860431643298,
+            "max_samples": 0.07040666615166147,
+            "n_estimators": 200.18833654070215
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5087684405489377,
+            "max_samples": 0.46256125756708044,
+            "n_estimators": 1999.9511718546491
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6588256365548949,
+            "max_samples": 0.880318846564201,
+            "n_estimators": 200.04470944087834
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6064087911604072,
+            "max_samples": 0.20601492260082643,
+            "n_estimators": 1999.764776601655
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8537328247248775,
+            "max_samples": 0.513002250490035,
+            "n_estimators": 200.47750218641158
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6415406025353916,
+            "max_samples": 0.21184922938699358,
+            "n_estimators": 1999.977415286431
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9157236402649624,
+            "max_samples": 0.0408076498979284,
+            "n_estimators": 200.3323131120139
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8001212462844465,
+            "max_samples": 0.9040263871960945,
+            "n_estimators": 1999.894443830163
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9857975160914525,
+            "max_samples": 0.6194285890824043,
+            "n_estimators": 200.17362498216335
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5604089243479957,
+            "max_samples": 0.023728245564744177,
+            "n_estimators": 1114.199727242363
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7505863196186611,
+            "max_samples": 0.2517765032333291,
+            "n_estimators": 1999.8797720273617
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9254889044158594,
+            "max_samples": 0.9470992225615931,
+            "n_estimators": 200.0953559330173
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5551434289884313,
+            "max_samples": 0.031095006708035555,
+            "n_estimators": 1098.7454290617552
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.68737588871675,
+            "max_samples": 0.16205137436040906,
+            "n_estimators": 1999.8539293632437
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8438204750847299,
+            "max_samples": 0.17532860485237434,
+            "n_estimators": 200.18578053386534
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5324349416639265,
+            "max_samples": 0.9959942787245977,
+            "n_estimators": 1104.1370618208339
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8378567776000891,
+            "max_samples": 0.8618814507067571,
+            "n_estimators": 1999.8383844985415
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.697388895818359,
+            "max_samples": 0.4417277614910743,
+            "n_estimators": 200.00310778001614
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9952446144965204,
+            "max_samples": 0.002844730922259786,
+            "n_estimators": 1104.8321185714221
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7410946831777623,
+            "max_samples": 0.8707215658360246,
+            "n_estimators": 1999.9974677099544
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5405805068886813,
+            "max_samples": 0.9183877497512429,
+            "n_estimators": 200.09220049266568
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9400414722070851,
+            "max_samples": 0.9944582460086036,
+            "n_estimators": 1115.8133356883188
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.93722745612694,
+            "max_samples": 0.819122823613861,
+            "n_estimators": 1999.852184031402
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6538076369207294,
+            "max_samples": 0.39430195063181683,
+            "n_estimators": 200.25045769963182
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6751640094765925,
+            "max_samples": 0.9610089673548078,
+            "n_estimators": 1999.9181232034323
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5525354704292944,
+            "max_samples": 0.9959689888528944,
+            "n_estimators": 1110.5606889986827
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7586258050270913,
+            "max_samples": 0.17872418660923117,
+            "n_estimators": 200.33668791459948
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5286283081587482,
+            "max_samples": 0.09669962711355728,
+            "n_estimators": 1999.5770203575019
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5404960215208965,
+            "max_samples": 0.01121596202581121,
+            "n_estimators": 1091.8224604510485
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.772157133775482,
+            "max_samples": 0.06691413612540542,
+            "n_estimators": 200.517847280948
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.949923802189518,
+            "max_samples": 0.8514340914118804,
+            "n_estimators": 1999.7480189361065
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5001946665395562,
+            "max_samples": 0.02518976291586561,
+            "n_estimators": 1095.8011405528844
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7247892251062431,
+            "max_samples": 0.9728780647454452,
+            "n_estimators": 200.052937003391
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8292084015435695,
+            "max_samples": 0.7529257816741818,
+            "n_estimators": 1999.6164555528746
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.502403806683172,
+            "max_samples": 0.0020950198402455156,
+            "n_estimators": 1093.0615796296368
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9537443643671515,
+            "max_samples": 0.9153057083699848,
+            "n_estimators": 200.48121842499145
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5552541230053467,
+            "max_samples": 0.1358274997317992,
+            "n_estimators": 1999.3222528496729
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9275013953764564,
+            "max_samples": 0.999031977043576,
+            "n_estimators": 1100.5948992668082
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5572661319392904,
+            "max_samples": 0.5284066240551872,
+            "n_estimators": 200.04270238959336
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6630099888534938,
+            "max_samples": 0.9405740278580504,
+            "n_estimators": 1999.0456850217795
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.576670441344594,
+            "max_samples": 0.9961210529353943,
+            "n_estimators": 1104.357416127245
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.823755021822228,
+            "max_samples": 0.0020741437435325416,
+            "n_estimators": 200.36718186040355
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9948381716518382,
+            "max_samples": 0.9368993719774863,
+            "n_estimators": 1999.74159476741
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9932984750596725,
+            "max_samples": 0.013043457963461735,
+            "n_estimators": 1110.5894500368581
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6827741630644126,
+            "max_samples": 0.9896825404735385,
+            "n_estimators": 200.08632290451268
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6243746388021298,
+            "max_samples": 0.0662770534240017,
+            "n_estimators": 1999.8964483818822
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5906292221776441,
+            "max_samples": 0.23252980348027286,
+            "n_estimators": 200.2305875814808
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9580847804504307,
+            "max_samples": 0.02896761555880678,
+            "n_estimators": 1103.58930423346
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7542134126698326,
+            "max_samples": 0.006496325312821516,
+            "n_estimators": 1999.8306202500744
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8064737916854887,
+            "max_samples": 0.197398599441164,
+            "n_estimators": 200.0364362626065
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8811115062739563,
+            "max_samples": 0.9946673475518085,
+            "n_estimators": 1097.3163689222101
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8944736980477541,
+            "max_samples": 0.9821589786346777,
+            "n_estimators": 1999.5132453241433
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7791970835960763,
+            "max_samples": 0.9764043407740348,
+            "n_estimators": 200.26348370167864
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9908608949666926,
+            "max_samples": 0.03650666472057018,
+            "n_estimators": 1102.0089222211766
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5639688851468849,
+            "max_samples": 0.005184013282808264,
+            "n_estimators": 1999.3702375388007
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.524417609933294,
+            "max_samples": 0.9767452705916493,
+            "n_estimators": 200.1304609886391
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.512335156118753,
+            "max_samples": 0.9577881033949341,
+            "n_estimators": 1107.1949113099508
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9645063500649449,
+            "max_samples": 0.41008725904002885,
+            "n_estimators": 1999.8075506447683
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9780621794250797,
+            "max_samples": 0.00904517367477431,
+            "n_estimators": 200.59232265498102
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9704218999757066,
+            "max_samples": 0.9983718812921872,
+            "n_estimators": 1111.2431864712496
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5115407261656417,
+            "max_samples": 0.9033909806625026,
+            "n_estimators": 1999.9670341656606
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7760284031860603,
+            "max_samples": 0.9110322038122983,
+            "n_estimators": 200.3581716600697
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9733441099781321,
+            "max_samples": 0.010360397053509218,
+            "n_estimators": 1109.7777921872562
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7327617904596562,
+            "max_samples": 0.8253554215911053,
+            "n_estimators": 1999.920811295941
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9791379951248613,
+            "max_samples": 0.06039917054561883,
+            "n_estimators": 200.57793535238272
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5126547395277913,
+            "max_samples": 0.9933545919830016,
+            "n_estimators": 1096.763375714952
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.583069091231103,
+            "max_samples": 0.15073552430083714,
+            "n_estimators": 1999.7348947028443
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8588898193846423,
+            "max_samples": 0.895013323161231,
+            "n_estimators": 200.13790597355967
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9856321778824764,
+            "max_samples": 0.01136446171284522,
+            "n_estimators": 1108.3652643224152
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.619607843594812,
+            "max_samples": 0.9917407544007931,
+            "n_estimators": 1999.7817890524814
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7347290796650889,
+            "max_samples": 0.11854142795221656,
+            "n_estimators": 200.51862876186777
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5318891924154654,
+            "max_samples": 0.9968586948341249,
+            "n_estimators": 1109.5432681642365
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.715454366389678,
+            "max_samples": 0.9784858031185825,
+            "n_estimators": 1999.9479524241308
+        }
+    },
+    {
+        "target": 0.006896551724137931,
+        "params": {
+            "max_features": 0.8820904167898558,
+            "max_samples": 0.8867752810529648,
+            "n_estimators": 200.07856221215175
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9160913286325914,
+            "max_samples": 0.09493895083390902,
+            "n_estimators": 1375.6335298303854
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9280331531247583,
+            "max_samples": 0.17058070250144108,
+            "n_estimators": 1457.9161791278157
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9208058309463474,
+            "max_samples": 0.3080734960614112,
+            "n_estimators": 449.6969683290347
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.639924122851242,
+            "max_samples": 0.6038273668178185,
+            "n_estimators": 1923.4524451190834
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7573489027031426,
+            "max_samples": 0.6582407936695054,
+            "n_estimators": 691.5819412008902
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.514888411443422,
+            "max_samples": 0.9510091944043132,
+            "n_estimators": 663.0344277280226
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8558277063336632,
+            "max_samples": 0.798661205019373,
+            "n_estimators": 1335.998367116
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8259247815524053,
+            "max_samples": 0.9572843960012706,
+            "n_estimators": 1776.3171068169931
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8246990273375252,
+            "max_samples": 0.9060922433514602,
+            "n_estimators": 975.4572446453776
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7365775572923501,
+            "max_samples": 0.8687838083104845,
+            "n_estimators": 1761.4660881628884
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8994598603647624,
+            "max_samples": 0.748996994810568,
+            "n_estimators": 200.029229315462
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9205489157517315,
+            "max_samples": 0.011654061068844146,
+            "n_estimators": 1688.697856485982
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5655796380660494,
+            "max_samples": 0.43347772530863493,
+            "n_estimators": 539.4813930016869
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5766265045595222,
+            "max_samples": 0.843369941393586,
+            "n_estimators": 662.7579313476901
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8117910195731857,
+            "max_samples": 0.41370876955760627,
+            "n_estimators": 928.1970709279499
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5495385479218855,
+            "max_samples": 0.09956807135898826,
+            "n_estimators": 566.0388548928928
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9343251800721533,
+            "max_samples": 0.1912632671468626,
+            "n_estimators": 1926.4610941206938
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5585753161536282,
+            "max_samples": 0.8266033564113151,
+            "n_estimators": 1745.7787882490488
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8267232979644652,
+            "max_samples": 0.5357095854057788,
+            "n_estimators": 903.4324658710648
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.770544805910683,
+            "max_samples": 0.374682364862138,
+            "n_estimators": 1108.8926697057705
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6708149284319658,
+            "max_samples": 0.8996007708668908,
+            "n_estimators": 875.6522959389013
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8095391953106235,
+            "max_samples": 0.8163918278161552,
+            "n_estimators": 1777.0770378987663
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5055320745005565,
+            "max_samples": 0.25591726965254846,
+            "n_estimators": 661.6502772121227
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7379354182429093,
+            "max_samples": 0.909927909402806,
+            "n_estimators": 435.440394436411
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6255595750739258,
+            "max_samples": 0.9284403076457449,
+            "n_estimators": 1794.022051701744
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8855425276434812,
+            "max_samples": 0.12102193812292605,
+            "n_estimators": 415.1428378707466
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5926936316299346,
+            "max_samples": 0.8889824022884062,
+            "n_estimators": 1242.9893696906233
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5931595640314768,
+            "max_samples": 0.10942924327567172,
+            "n_estimators": 1695.4945328342615
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6862042706059126,
+            "max_samples": 0.9815682713027524,
+            "n_estimators": 1696.5572928036245
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6368937711034193,
+            "max_samples": 0.9704905300283122,
+            "n_estimators": 1715.9436067824263
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8211512029155279,
+            "max_samples": 0.5081346900109401,
+            "n_estimators": 1750.9243607541518
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8721607667155133,
+            "max_samples": 0.26028702865497055,
+            "n_estimators": 255.74056616439822
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8116527218667058,
+            "max_samples": 0.13195788141286424,
+            "n_estimators": 1005.2978093222441
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6535705890619911,
+            "max_samples": 0.9200111905557795,
+            "n_estimators": 313.7888820153484
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8708434031344854,
+            "max_samples": 0.9142795044031868,
+            "n_estimators": 950.8144751013283
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9106122904328059,
+            "max_samples": 0.7557748838461721,
+            "n_estimators": 1084.4211044302717
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5168487550150014,
+            "max_samples": 0.32413848245351373,
+            "n_estimators": 1039.237337601342
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6998761101017896,
+            "max_samples": 0.421251029394608,
+            "n_estimators": 244.1537769146517
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9527224429074057,
+            "max_samples": 0.5789999050038026,
+            "n_estimators": 1046.6555167369243
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9576948710391513,
+            "max_samples": 0.4183445447241595,
+            "n_estimators": 1968.7071464852102
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6481452555512928,
+            "max_samples": 0.25855591594391936,
+            "n_estimators": 414.42357953170966
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7002151121837019,
+            "max_samples": 0.28810358355879406,
+            "n_estimators": 1709.0650254405998
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9585552063757381,
+            "max_samples": 0.296694398339584,
+            "n_estimators": 1977.4212752647431
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5590426559707469,
+            "max_samples": 0.03256974605133034,
+            "n_estimators": 454.852244610684
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6707266333596913,
+            "max_samples": 0.305780327718742,
+            "n_estimators": 1029.7247895335508
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.908314049975108,
+            "max_samples": 0.7526424932538456,
+            "n_estimators": 1151.147180322184
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9315641540405568,
+            "max_samples": 0.9308423386040598,
+            "n_estimators": 641.8123617313356
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6017678144442757,
+            "max_samples": 0.7039928780945015,
+            "n_estimators": 921.7142128678404
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6635964084553672,
+            "max_samples": 0.9359786896900205,
+            "n_estimators": 1814.2005660508144
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.519712103652521,
+            "max_samples": 0.35131936148857623,
+            "n_estimators": 536.2917989059747
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9264774950742531,
+            "max_samples": 0.507065133748865,
+            "n_estimators": 1629.1972057680118
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5113013729829055,
+            "max_samples": 0.22694653413294974,
+            "n_estimators": 1016.6974783957425
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7366111552483717,
+            "max_samples": 0.8891485182199256,
+            "n_estimators": 1560.8840319787391
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7995040675298644,
+            "max_samples": 0.692731387762844,
+            "n_estimators": 718.240689929967
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9276880913219202,
+            "max_samples": 0.1391158637011597,
+            "n_estimators": 746.3784186325959
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8441584668753477,
+            "max_samples": 0.871791038912222,
+            "n_estimators": 940.9779948617368
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8707273183997752,
+            "max_samples": 0.6266405879044683,
+            "n_estimators": 1251.500618209314
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6827102647527095,
+            "max_samples": 0.912137967140794,
+            "n_estimators": 1548.2343249108496
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7339832219432132,
+            "max_samples": 0.3679636969638501,
+            "n_estimators": 591.7785458465921
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6986736694066171,
+            "max_samples": 0.0018228295819414653,
+            "n_estimators": 897.0188268649113
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9555985021799981,
+            "max_samples": 0.8181677418772352,
+            "n_estimators": 418.99224333404993
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5315069409878503,
+            "max_samples": 0.4610569208373463,
+            "n_estimators": 1563.6672989336541
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6877082355882607,
+            "max_samples": 0.5254123001235396,
+            "n_estimators": 1838.1733224408326
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9002427570066283,
+            "max_samples": 0.2927365048905858,
+            "n_estimators": 1607.3897287335258
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8201333923804407,
+            "max_samples": 0.976542287128783,
+            "n_estimators": 829.8461738946606
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9232296955842962,
+            "max_samples": 0.37510114166470054,
+            "n_estimators": 573.5187825653743
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6976469548817315,
+            "max_samples": 0.7545914149672645,
+            "n_estimators": 483.8084057023381
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.6575539279268239,
+            "max_samples": 0.6396502661881971,
+            "n_estimators": 339.70417553194494
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.5335413819250067,
+            "max_samples": 0.7785320394628584,
+            "n_estimators": 630.849521975832
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.970467495549766,
+            "max_samples": 0.03539828381913723,
+            "n_estimators": 1874.5479677676058
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.557205076533238,
+            "max_samples": 0.06367781518474569,
+            "n_estimators": 1846.5413937276119
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.9324779413308575,
+            "max_samples": 0.1173625065363203,
+            "n_estimators": 1625.019460549421
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.993218624018926,
+            "max_samples": 0.30999842862455806,
+            "n_estimators": 1256.7870522632725
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.7611928113066708,
+            "max_samples": 0.4488062882259999,
+            "n_estimators": 1070.859721868442
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8792450185418539,
+            "max_samples": 0.906784259916569,
+            "n_estimators": 1064.4233337874525
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8747294522215987,
+            "max_samples": 0.4923024670335747,
+            "n_estimators": 1223.917256252767
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8097349005814778,
+            "max_samples": 0.6148117623670216,
+            "n_estimators": 689.5830267234969
+        }
+    },
+    {
+        "target": 0.0,
+        "params": {
+            "max_features": 0.8108050285114496,
+            "max_samples": 0.7996487687936762,
+            "n_estimators": 944.4435828991079
+        }
+    }
+]
