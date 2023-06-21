@@ -44,7 +44,7 @@ def main():
     ## Read the csv files
 
     # Import features from a CSV file
-    df_features = pd.read_csv("1677CVEs_783dim_like_count_features.csv")
+    df_features = pd.read_csv("1677CVEs_783dim_features_20230326.csv")
     df_features.rename({"Unnamed: 0" : "CVE"}, inplace = True, axis = 1)
     df_features.set_index('CVE', inplace = True)
 
@@ -65,6 +65,7 @@ def main():
     validation_size = 0.30
     seed = 1234
     num_splits = 10
+    scoring = 'f1'
 
     # split data into train and test data
     train_data = df_features
@@ -103,12 +104,62 @@ def main():
         # initializing kfold by n_splits=10(no.of K)
         skf = StratifiedKFold(n_splits = num_splits, shuffle = True, random_state = seed)
 
-        f1_cv_results = cross_val_score(model,X_train, y_train, cv=skf, scoring="f1" )
-        results.append(f1_cv_results)
+        cv_results = cross_val_score(model, X_train, y_train, cv=skf, scoring=scoring )
+        results.append(cv_results)
         names.append(name)
 
-        msg = "{}:{:.3f}({:.3f})".format(name, f1_cv_results.mean(), f1_cv_results.std() )
+        msg = "{}:{:.3f}({:.3f})".format(name, cv_results.mean(), cv_results.std() )
         print(msg)
+
+    # Compare Algorithms
+    fig = plt.figure()
+    fig.suptitle('Algorithm Comparison')
+    ax = fig.add_subplot(111)
+    plt.boxplot(results)
+    ax.set_xticklabels(names)
+    plt.show()
+    fig.savefig("Algorithm_Comparison.png")
+
+    ## Evaluate Algorithms: Standardize Data
+    # Define pipeline for each base model
+
+    pipelines = []
+    pipelines.append(('ScaledLR', Pipeline([('Scaler', StandardScaler()),('LR', LogisticRegression(solver='lbfgs', multi_class='auto', max_iter=10000))])))
+    pipelines.append(('ScaledLDA', Pipeline([('Scaler', StandardScaler()),('LDA', LinearDiscriminantAnalysis())])))
+    pipelines.append(('ScaledKNN', Pipeline([('Scaler', StandardScaler()),('KNN', KNeighborsClassifier())])))
+    pipelines.append(('ScaledCART', Pipeline([('Scaler', StandardScaler()),('CART', DecisionTreeClassifier())])))
+    pipelines.append(('ScaledNB', Pipeline([('Scaler', StandardScaler()), ('NB', GaussianNB())])))
+    pipelines.append(('ScaledSVM', Pipeline([('Scaler', StandardScaler()),('SVM', SVC(gamma='scale'))])))
+
+    # evaluate each model in turn
+    scaled_results = []
+    scaled_names = []
+
+    # evaluate each model in turn
+    for name, model in pipelines:
+
+        # StratifiedKFoldの設定
+        # initializing kfold by n_splits=10(no.of K)
+        skf = StratifiedKFold(n_splits = num_splits, shuffle = True, random_state = seed)
+
+        cv_results = cross_val_score(model, X_train, y_train, cv=skf, scoring=scoring )
+        scaled_results.append(cv_results)
+        scaled_names.append(name)
+
+        msg = "{}:{:.3f}({:.3f})".format(name, cv_results.mean(), cv_results.std() )
+        print(msg)
+        with open ('results_algorithm_comparison.txt','w') as f:
+            f.write(msg)
+
+    # Compare Algorithms
+    fig = plt.figure()
+    fig.suptitle('Algorithm Comparison (Scaled)')
+    ax = fig.add_subplot(111)
+    plt.boxplot(scaled_results)
+    ax.set_xticklabels(scaled_names)
+    plt.show()
+    fig.savefig("Algorithm_Comparison_Scaled.png")
+
 
 if __name__ == "__main__":
     main()
