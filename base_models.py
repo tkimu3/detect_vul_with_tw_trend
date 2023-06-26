@@ -111,6 +111,13 @@ def main():
         msg = "{}:{:.3f}({:.3f})".format(name, cv_results.mean(), cv_results.std() )
         print(msg)
 
+        with open ('results_algorithm_comparison.txt',mode='a') as f:
+            print(msg, file=f)
+            print(str(cv_results.tolist()), file=f)
+            print('\n', file=f)
+            # f.write(msg)
+            # f.writelines(str(cv_results.tolist()))
+
     # Compare Algorithms
     fig = plt.figure()
     fig.suptitle('Algorithm Comparison')
@@ -130,6 +137,7 @@ def main():
     pipelines.append(('ScaledCART', Pipeline([('Scaler', StandardScaler()),('CART', DecisionTreeClassifier())])))
     pipelines.append(('ScaledNB', Pipeline([('Scaler', StandardScaler()), ('NB', GaussianNB())])))
     pipelines.append(('ScaledSVM', Pipeline([('Scaler', StandardScaler()),('SVM', SVC(gamma='scale'))])))
+    pipelines.append(('ScaledRF', Pipeline([('Scaler', StandardScaler()),('RF',RandomForestClassifier())])))
 
     # evaluate each model in turn
     scaled_results = []
@@ -148,8 +156,13 @@ def main():
 
         msg = "{}:{:.3f}({:.3f})".format(name, cv_results.mean(), cv_results.std() )
         print(msg)
-        with open ('results_algorithm_comparison.txt','w') as f:
-            f.write(msg)
+        with open ('results_scaled_algorithm_comparison.txt',mode='a') as f:
+            print(msg, file=f)
+            print(str(cv_results.tolist()), file=f)
+            print('\n', file=f)
+            # f.write(msg)
+            # f.writelines(str(cv_results.tolist()))
+
 
     # Compare Algorithms
     fig = plt.figure()
