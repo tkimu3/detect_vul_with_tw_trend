@@ -1,0 +1,6 @@
+04_quote_count.csv
+Accuracy:0.625
+Precision:0.625
+Recall:1.000
+F1 Score:0.769
+

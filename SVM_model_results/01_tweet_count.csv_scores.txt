@@ -1,0 +1,6 @@
+01_tweet_count.csv
+Accuracy:0.624
+Precision:0.624
+Recall:0.998
+F1 Score:0.768
+
