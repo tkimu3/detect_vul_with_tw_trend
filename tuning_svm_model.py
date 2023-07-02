@@ -164,15 +164,15 @@ def main():
         kernel_values = ['linear', 'poly', 'rbf', 'sigmoid']
 
         param_grid = dict(C=c_values, kernel=kernel_values)
-        print(param_grid)
+        # print(param_grid)
 
         # Create an SVM instance
-        clf = SVC(gamma='scale')
+        clf = SVC()
 
         # StratifiedKFoldの設定
         # initializing kfold by n_splits=10(no.of K)
         skf = StratifiedKFold(n_splits = num_splits, shuffle = True, random_state = seed)
-        grid_search = GridSearchCV(estimator = clf, param_grid=param_grid, cv=skf, scoring=scoring )
+        grid_search = GridSearchCV(estimator=clf, param_grid=param_grid, cv=skf, scoring=scoring, verbose=4)
         # results = stratified_kfold_scores(clf,X,y,num_splits,seed)
 
         grid_result = grid_search.fit(X_train, y_train)
