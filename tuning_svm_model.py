@@ -172,7 +172,7 @@ def main():
         # StratifiedKFoldの設定
         # initializing kfold by n_splits=10(no.of K)
         skf = StratifiedKFold(n_splits = num_splits, shuffle = True, random_state = seed)
-        grid_search = GridSearchCV(estimator=clf, param_grid=param_grid, cv=skf, scoring=scoring, verbose=4)
+        grid_search = GridSearchCV(estimator=clf, param_grid=param_grid, cv=skf, scoring=scoring, verbose=4, n_jobs=-1)
         # results = stratified_kfold_scores(clf,X,y,num_splits,seed)
 
         grid_result = grid_search.fit(X_train, y_train)
@@ -195,7 +195,6 @@ def main():
             print("{:3f} ({:3f}) with: {}".format(mean, std, param))
             with open (f'{res_path}/{file_stem}_grid_result.txt',mode='a') as f:
                 print("{:3f} ({:3f}) with: {}".format(mean, std, param), file=f)
-
         # if the numbers of features are less than CVEs with flag, recover the dropped CVEs with flag
         if (file_name == '02_retweet_count.csv'):
             df_flag_sorted = df_flag_temp
