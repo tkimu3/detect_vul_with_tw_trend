@@ -1,0 +1,4 @@
+best_score:0.771 using {'C': 100, 'gamma': 0.001, 'kernel': 'rbf'}
+
+test_result: recall0.766, f10.997
+

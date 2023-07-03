@@ -78,7 +78,9 @@ def main():
     validation_size = 0.30
     seed = 1234
     num_splits = 10
-    scoring = 'recall'
+    # scoring = ['recall','f1']
+    scoring = 'f1'
+    # scoring = 'recall'
     # scorings = ['accuracy','precision','recall','f1']
 
 
@@ -93,7 +95,7 @@ def main():
     data_dir = 'features'
 
     # results directory
-    res_dir = 'tuning_SVM_model_results'
+    res_dir = 'rbf_grid_tuning_SVM_model_results'
     res_path = cur_dir.joinpath(res_dir)
 
     # join the directory
@@ -160,41 +162,75 @@ def main():
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = validation_size, random_state = seed)
 
         # Set the parameters for SVM
-        c_values = [0.1, 0.3, 0.5, 0.7, 0.9, 1.0, 1.3, 1.5, 1.7, 2.0]
-        kernel_values = ['linear', 'poly', 'rbf', 'sigmoid']
+        c_values = [0.0001, 0.001, 0.01, 0.03, 0.1, 0.3, 1, 3, 10, 100, 1000]
+        gamma_values = [0.0001, 0.001, 0.01, 0.03, 0.1, 0.3, 1, 3, 10, 100, 1000]
+        # kernel_values = ['rbf']
+        # kernel_values = ['rbf', 'sigmoid']
+        # kernel_values = ['rbf', 'sigmoid', 'poly']
+        # kernel_values = ['linear', 'rbf', 'sigmoid', 'poly']
 
-        param_grid = dict(C=c_values, kernel=kernel_values)
+        param_grid = dict(C=c_values, gamma=gamma_values)
+        # param_grid = dict(C=c_values, gamma=gamma_values, kernel=kernel_values)
         # print(param_grid)
 
         # Create an SVM instance
-        clf = SVC()
+        clf = SVC(kernel = 'rbf')
+        # clf = SVC()
+
 
         # StratifiedKFoldの設定
         # initializing kfold by n_splits=10(no.of K)
         skf = StratifiedKFold(n_splits = num_splits, shuffle = True, random_state = seed)
-        grid_search = GridSearchCV(estimator=clf, param_grid=param_grid, cv=skf, scoring=scoring, verbose=4, n_jobs=-1)
+        grid_search = GridSearchCV(estimator=clf, param_grid=param_grid, cv=skf, scoring=scoring, verbose=2, n_jobs=-1)
         # results = stratified_kfold_scores(clf,X,y,num_splits,seed)
 
         grid_result = grid_search.fit(X_train, y_train)
+        print("grid_serach.fit ended")
 
-        with open (f'{res_path}/{file_stem}_grid_result.json','w') as f:
-            json.dump(grid_result, f, indent=4)
+        df_cv_results = pd.DataFrame(grid_result.cv_results_).sort_values('mean_test_score', ascending = False)
+        df_cv_results.to_csv(f"{res_path}/{file_stem}_rbf_grid_cv_result.csv")
 
-        msg = "best_recall_score:{:.3f} using {}\n".format(grid_result.best_score_, grid_result.best_params_)
-        print(msg)
+        # with open (f'{res_path}/{file_stem}_grid_result.json','w') as f:
+        #     json.dump(grid_result.cv_results_, f, indent=4)
+        print("cv_results_ record ended")
 
-        with open (f'{res_path}/{file_stem}_grid_result.txt',mode='a') as f:
-            print(msg, file=f)
+        best_model = grid_result.best_estimator_
+        pred = best_model.predict(X_test)
+        f1 = f1_score (y_test, pred)
+        recall = recall_score(y_test, pred)
+        confusion_matrix = confusion_matrix(y_test, pred)
+
+        msg1 = "best_score:{:.3f} using {}\n".format(grid_result.best_score_, grid_result.best_params_)
+        print(msg1)
+
+        msg2 = "test_result: recall = {:.3f}, f1 = {:.3f}\n confusion_matrix = {}".format(recall, f1, confusion_matrix)
+        print(msg2)
+
+        with open (f'{res_path}/{file_stem}_rbf_grid_result.txt',mode='a') as f:
+            print(msg1, file=f)
+            print(msg2, file=f)
         # msg = "{}\nAccuracy:{:.3f}\nPrecision:{:.3f}\nRecall:{:.3f}\nF1 Score:{:.3f}\n".format(file_name,results[0],results[1],results[2],results[3])
 
         means = grid_result.cv_results_['mean_test_score']
         stds= grid_result.cv_results_['std_test_score']
         params = grid_result.cv_results_['params']
 
-        for mean, std, param in zip(means, stds, params):
-            print("{:3f} ({:3f}) with: {}".format(mean, std, param))
-            with open (f'{res_path}/{file_stem}_grid_result.txt',mode='a') as f:
-                print("{:3f} ({:3f}) with: {}".format(mean, std, param), file=f)
+        df_result = pd.DataFrame(data=zip(means, stds, params), columns=['mean', 'std', 'params'])
+
+        # スコアの降順に並び替え
+        df_result = df_result.sort_values('std', ascending=True)
+        df_result = df_result.sort_values('mean', ascending=False)
+
+        df_result.to_csv(f'{res_path}/{file_stem}_rbf_grid_result.csv')
+
+        # スコア・標準偏差・パラメータを表示
+        for index, row in df_result.iterrows():
+            print("score: {:.3f} +/-{:.4f}, params: {}".format(row['mean'], row['std']*2, row['params']))
+
+        # for mean, std, param in zip(means, stds, params):
+        #     print("{:3f} ({:3f}) with: {}".format(mean, std, param))
+        #     with open (f'{res_path}/{file_stem}_grid_result.txt',mode='a') as f:
+        #         print("{:3f} ({:3f}) with: {}".format(mean, std, param), file=f)
         # if the numbers of features are less than CVEs with flag, recover the dropped CVEs with flag
         if (file_name == '02_retweet_count.csv'):
             df_flag_sorted = df_flag_temp
