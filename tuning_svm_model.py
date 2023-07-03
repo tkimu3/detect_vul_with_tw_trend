@@ -181,7 +181,7 @@ def main():
         # StratifiedKFoldの設定
         # initializing kfold by n_splits=10(no.of K)
         skf = StratifiedKFold(n_splits = num_splits, shuffle = True, random_state = seed)
-        grid_search = GridSearchCV(estimator=clf, param_grid=param_grid, cv=skf, scoring=scoring, verbose=2, n_jobs=-1)
+        grid_search = GridSearchCV(estimator=clf, param_grid=param_grid, cv=skf, scoring=scoring, verbose=5, n_jobs=-1)
         # results = stratified_kfold_scores(clf,X,y,num_splits,seed)
 
         grid_result = grid_search.fit(X_train, y_train)
@@ -201,12 +201,12 @@ def main():
         precision = precision_score(y_test, pred)
         f1 = f1_score (y_test, pred)
         recall = recall_score(y_test, pred)
-        confusion_matrix = confusion_matrix(y_test, pred)
+        cf_matrix = confusion_matrix(y_test, pred)
 
         msg1 = "best_score:{:.3f} using {}\n".format(grid_result.best_score_, grid_result.best_params_)
         print(msg1)
 
-        msg2 = "test_result: accuracy = {:.3f}, precision = {:.3f}, recall = {:.3f}, f1 = {:.3f}\n confusion_matrix = {}".format(accuracy, precision ,recall, f1, confusion_matrix)
+        msg2 = "test_result: accuracy = {:.3f}, precision = {:.3f}, recall = {:.3f}, f1 = {:.3f}\n confusion_matrix = {}".format(accuracy, precision ,recall, f1, cf_matrix)
         print(msg2)
 
         # ベストパラメータでのスコア・パラメータ、及びテスト結果(recall, f1, confusion matrix)の記録
