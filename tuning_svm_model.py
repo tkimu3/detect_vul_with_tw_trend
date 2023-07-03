@@ -187,6 +187,7 @@ def main():
         grid_result = grid_search.fit(X_train, y_train)
         print("grid_serach.fit ended")
 
+        # fit結果をf1_scoreの降順でCSV保存
         df_cv_results = pd.DataFrame(grid_result.cv_results_).sort_values('mean_test_score', ascending = False)
         df_cv_results.to_csv(f"{res_path}/{file_stem}_rbf_grid_cv_result.csv")
 
@@ -196,6 +197,8 @@ def main():
 
         best_model = grid_result.best_estimator_
         pred = best_model.predict(X_test)
+        accuracy = accuracy_score(y_test, pred)
+        precision = precision_score(y_test, pred)
         f1 = f1_score (y_test, pred)
         recall = recall_score(y_test, pred)
         confusion_matrix = confusion_matrix(y_test, pred)
@@ -203,9 +206,10 @@ def main():
         msg1 = "best_score:{:.3f} using {}\n".format(grid_result.best_score_, grid_result.best_params_)
         print(msg1)
 
-        msg2 = "test_result: recall = {:.3f}, f1 = {:.3f}\n confusion_matrix = {}".format(recall, f1, confusion_matrix)
+        msg2 = "test_result: accuracy = {:.3f}, precision = {:.3f}, recall = {:.3f}, f1 = {:.3f}\n confusion_matrix = {}".format(accuracy, precision ,recall, f1, confusion_matrix)
         print(msg2)
 
+        # ベストパラメータでのスコア・パラメータ、及びテスト結果(recall, f1, confusion matrix)の記録
         with open (f'{res_path}/{file_stem}_rbf_grid_result.txt',mode='a') as f:
             print(msg1, file=f)
             print(msg2, file=f)
@@ -223,9 +227,10 @@ def main():
 
         df_result.to_csv(f'{res_path}/{file_stem}_rbf_grid_result.csv')
 
-        # スコア・標準偏差・パラメータを表示
-        for index, row in df_result.iterrows():
-            print("score: {:.3f} +/-{:.4f}, params: {}".format(row['mean'], row['std']*2, row['params']))
+        with open (f'{res_path}/{file_stem}_rbf_grid_result.txt',mode='a') as f:
+            # 各サーチにおけるスコア・標準偏差・パラメータを記録
+            for index, row in df_result.iterrows():
+                print("score: {:.3f} +/-{:.4f}, params: {}".format(row['mean'], row['std']*2, row['params']))
 
         # for mean, std, param in zip(means, stds, params):
         #     print("{:3f} ({:3f}) with: {}".format(mean, std, param))
