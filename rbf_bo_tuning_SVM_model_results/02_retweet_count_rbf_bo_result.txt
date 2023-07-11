@@ -1,5 +1,0 @@
-best_score:0.789 using {'C': 0.002190968595786365, 'gamma': 2.2634004467821947}
-
-test_result: accuracy = 0.645, precision = 0.645, recall = 1.000, f1 = 0.784
- confusion_matrix = [[  0  86]
- [  0 156]]
