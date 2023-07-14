@@ -11,7 +11,8 @@ import datetime
 from datetime import timedelta
 
 # Define the CVE number
-cve = 'CVE-2023-23397'
+# cve = 'CVE-2023-23397'
+cve = 'CVE-2023-23752'
 
 # read csv file
 df = pd.read_csv('labeled_data/51420_labeled_data_rounded_with_metrics_20230326.csv', index_col =0, parse_dates = True)
