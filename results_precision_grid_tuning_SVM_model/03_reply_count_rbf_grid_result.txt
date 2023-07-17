@@ -1,0 +1,5 @@
+best_score:0.628 using {'C': 100, 'gamma': 0.0001}
+
+test_result: accuracy = 0.613, precision = 0.617, recall = 0.987, f1 = 0.760
+ confusion_matrix = [[  1 191]
+ [  4 308]]

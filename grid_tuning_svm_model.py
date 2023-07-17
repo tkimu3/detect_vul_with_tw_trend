@@ -79,8 +79,9 @@ def main():
     seed = 1234
     num_splits = 10
     # scoring = ['recall','f1']
-    scoring = 'f1'
+    # scoring = 'f1'
     # scoring = 'recall'
+    scoring = 'precision'
     # scorings = ['accuracy','precision','recall','f1']
 
 
@@ -95,7 +96,7 @@ def main():
     data_dir = 'features'
 
     # results directory
-    res_dir = 'rbf_grid_tuning_SVM_model_results'
+    res_dir = 'results_precision_grid_tuning_SVM_model'
     res_path = cur_dir.joinpath(res_dir)
 
     # join the directory
@@ -113,7 +114,7 @@ def main():
     # print(filePaths[0].stem) -> 06_impression_count
 
     #  Import the CVE list with flags from the CSV file
-    df_flag = pd.read_csv("CVE_list_with_flagH_20230326.csv", index_col = ['CVE'] )
+    df_flag = pd.read_csv("cve_lists/CVE_list_with_flagH_20230326.csv", index_col = ['CVE'] )
     df_flag_sorted = df_flag.sort_values('CVE')
     df_flag_sorted.drop('Unnamed: 0', inplace = True, axis = 1)
     df = []

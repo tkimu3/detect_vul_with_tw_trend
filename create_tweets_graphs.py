@@ -11,13 +11,21 @@ import datetime
 from datetime import timedelta
 
 # Define the CVE number
-# cve = 'CVE-2023-23397'
-cve = 'CVE-2023-23752'
+cve = 'CVE-2023-23397'
+# cve = 'CVE-2023-23752'
+# cve = 'CVE-2023-25136'
+# cve = 'CVE-2023-21036'
+# cve = 'CVE-2023-21715'
+# cve = 'CVE-2023-24532'
+# cve = 'CVE-2023-24880'
+# cve = 'CVE-2023-21716'
+# cve = 'CVE-2023-25725'
 
 # read csv file
 df = pd.read_csv('labeled_data/51420_labeled_data_rounded_with_metrics_20230326.csv', index_col =0, parse_dates = True)
 all_columns_list = list(df.columns.values)
-column_list = ['CVE', 'text', 'reply_count', 'like_count', 'quote_count', 'impression_count']
+# column_list = ['CVE', 'text', 'reply_count', 'like_count', 'quote_count', 'impression_count']
+column_list = ['CVE']
 # print(all_columns_list)
 
 ## remove columns from the list except for  'CVE', 'retweet_count', 'reply_count', 'like_count', 'quote_count', 'impression_count'
@@ -36,7 +44,8 @@ df.drop(drop_columns_list, inplace = True, axis = 1)
 df_concat = pd.DataFrame()
 
 ## count tweets for each CVE
-feature_list = ['tweet_count','retweet_count', 'reply_count', 'like_count', 'quote_count', 'impression_count']
+# feature_list = ['tweet_count','retweet_count', 'reply_count', 'like_count', 'quote_count', 'impression_count']
+feature_list = ['tweet_count']
 set_list = zip(column_list, feature_list)
 # print(list(set_list))
 
@@ -117,8 +126,10 @@ jp = tz.gettz('Japan/Tokyo')
 # # https://www.yutaka-note.com/entry/matplotlib_time_axis
 
 # nrows,ncolsの設定
-nrows = int(len(feature_list)/2)
-ncols = 2
+# nrows = int(len(feature_list)/2)
+# ncols = 2
+nrows = 1
+ncols = 1
 
 fig, axes = plt.subplots(nrows, ncols, sharex="all", squeeze = False, tight_layout = True)
 # fig, ax = plt.subplots()
@@ -140,5 +151,5 @@ for i in range(nrows):
     # axes[i,j].xaxis.set_major_formatter(mdates.DateFormatter("%y/%m/%d\n%H:%M"))
     count += 1
 fig.subplots_adjust(bottom=0.2)
-plt.savefig(f'pngfiles/timeseries_of_{cve}.png')
+plt.savefig(f'pngfiles/tweet_count_timeseries_of_{cve}.png')
 plt.show()
